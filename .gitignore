@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 # Prerequisites
 *.d
 
@@ -33,7 +31,6 @@
 *.out
 *.app
 
->>>>>>> 9e1b908 (This is the initial push to this repo. It contains the main functionality of the program.)
 CMakeLists.txt.user
 CMakeCache.txt
 CMakeFiles
