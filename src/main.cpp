@@ -1,5 +1,4 @@
 #include "packer/Packer.h"
-#include "formats/ModArchive.h"
 #include <iostream>
 #include <string>
 
