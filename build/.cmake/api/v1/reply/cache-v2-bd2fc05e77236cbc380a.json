@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/elanda/Coding/CPP/modpacker/build"
+			"value" : "/mnt/06DEA28EDEA27619/Coding/CPP/modpacker/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -527,7 +527,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/elanda/Coding/CPP/modpacker/build/CMakeFiles/pkgRedirects"
+			"value" : "/mnt/06DEA28EDEA27619/Coding/CPP/modpacker/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -587,7 +587,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/elanda/Coding/CPP/modpacker"
+			"value" : "/mnt/06DEA28EDEA27619/Coding/CPP/modpacker"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -643,7 +643,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/ninja"
+			"value" : "/home/elanda/.local/bin/ninja"
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS",
@@ -1139,7 +1139,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/elanda/Coding/CPP/modpacker/build"
+			"value" : "/mnt/06DEA28EDEA27619/Coding/CPP/modpacker/build"
 		},
 		{
 			"name" : "ModPacker_IS_TOP_LEVEL",
@@ -1163,7 +1163,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/elanda/Coding/CPP/modpacker"
+			"value" : "/mnt/06DEA28EDEA27619/Coding/CPP/modpacker"
 		},
 		{
 			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",
