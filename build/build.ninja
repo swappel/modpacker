@@ -49,6 +49,27 @@ cmake_ninja_workdir = /home/elanda/Coding/CPP/modpacker/build/
 
 build cmake_object_order_depends_target_utils: phony || CMakeFiles/utils.dir
 
+build CMakeFiles/utils.dir/src/FileUtils.cpp.o: CXX_COMPILER__utils_unscanned_Debug /home/elanda/Coding/CPP/modpacker/src/FileUtils.cpp || cmake_object_order_depends_target_utils
+  DEP_FILE = CMakeFiles/utils.dir/src/FileUtils.cpp.o.d
+  FLAGS = -g -std=gnu++17
+  INCLUDES = -I/home/elanda/Coding/CPP/modpacker/include
+  OBJECT_DIR = CMakeFiles/utils.dir
+  OBJECT_FILE_DIR = CMakeFiles/utils.dir/src
+
+build CMakeFiles/utils.dir/src/ModArchive.cpp.o: CXX_COMPILER__utils_unscanned_Debug /home/elanda/Coding/CPP/modpacker/src/ModArchive.cpp || cmake_object_order_depends_target_utils
+  DEP_FILE = CMakeFiles/utils.dir/src/ModArchive.cpp.o.d
+  FLAGS = -g -std=gnu++17
+  INCLUDES = -I/home/elanda/Coding/CPP/modpacker/include
+  OBJECT_DIR = CMakeFiles/utils.dir
+  OBJECT_FILE_DIR = CMakeFiles/utils.dir/src
+
+build CMakeFiles/utils.dir/src/Packer.cpp.o: CXX_COMPILER__utils_unscanned_Debug /home/elanda/Coding/CPP/modpacker/src/Packer.cpp || cmake_object_order_depends_target_utils
+  DEP_FILE = CMakeFiles/utils.dir/src/Packer.cpp.o.d
+  FLAGS = -g -std=gnu++17
+  INCLUDES = -I/home/elanda/Coding/CPP/modpacker/include
+  OBJECT_DIR = CMakeFiles/utils.dir
+  OBJECT_FILE_DIR = CMakeFiles/utils.dir/src
+
 build CMakeFiles/utils.dir/src/main.cpp.o: CXX_COMPILER__utils_unscanned_Debug /home/elanda/Coding/CPP/modpacker/src/main.cpp || cmake_object_order_depends_target_utils
   DEP_FILE = CMakeFiles/utils.dir/src/main.cpp.o.d
   FLAGS = -g -std=gnu++17
@@ -64,7 +85,7 @@ build CMakeFiles/utils.dir/src/main.cpp.o: CXX_COMPILER__utils_unscanned_Debug /
 #############################################
 # Link the executable /home/elanda/Coding/CPP/modpacker/bin/utils
 
-build /home/elanda/Coding/CPP/modpacker/bin/utils: CXX_EXECUTABLE_LINKER__utils_Debug CMakeFiles/utils.dir/src/main.cpp.o
+build /home/elanda/Coding/CPP/modpacker/bin/utils: CXX_EXECUTABLE_LINKER__utils_Debug CMakeFiles/utils.dir/src/FileUtils.cpp.o CMakeFiles/utils.dir/src/ModArchive.cpp.o CMakeFiles/utils.dir/src/Packer.cpp.o CMakeFiles/utils.dir/src/main.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/utils.dir
   POST_BUILD = :

@@ -1,4 +1,4 @@
-#include "ModArchive.h"
+#include "formats/ModArchive.h"
 #include <nlohmann/json.hpp>
 #include <filesystem>
 #include <iostream>

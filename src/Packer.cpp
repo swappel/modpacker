@@ -1,6 +1,6 @@
-#include "Packer.h"
+#include "packer/Packer.h"
 #include "fileutils/FileUtils.h"
-#include "../formats/ModArchive.h"
+#include "formats/ModArchive.h"
 #include <fstream>
 #include <filesystem>
 #include <vector>
@@ -40,7 +40,7 @@ void pack(const std::string& inputFolder, const std::string& outputFile) {
     std::ofstream out(outputFile, std::ios::binary);
     if (!out) throw std::runtime_error("Cannot open output file.");
 
-    writeArchive(out, files);
+    writeArchive(out, files, "./");
 }
 
 void unpack(const std::string& inputFile, const std::string& outputFolder) {

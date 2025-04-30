@@ -1,2 +1,9 @@
 # ninja log v5
-1	737	1745951416531338351	CMakeFiles/utils.dir/src/main.cpp.o	ae6fc81ddfa47fc9
+13	829	1746030587935066725	CMakeFiles/utils.dir/src/main.cpp.o	ae6fc81ddfa47fc9
+1	2375	1746030769328500410	CMakeFiles/utils.dir/src/FileUtils.cpp.o	5a3e1935ccef5816
+2	2411	1746030769359500314	CMakeFiles/utils.dir/src/Packer.cpp.o	63ab1757130d021b
+2	4963	1746030771913492340	CMakeFiles/utils.dir/src/ModArchive.cpp.o	eb4eddce2ed66dac
+16	2404	1746030950195935718	CMakeFiles/utils.dir/src/FileUtils.cpp.o	5a3e1935ccef5816
+17	2409	1746030950202935696	CMakeFiles/utils.dir/src/Packer.cpp.o	63ab1757130d021b
+17	5134	1746030952922927204	CMakeFiles/utils.dir/src/ModArchive.cpp.o	eb4eddce2ed66dac
+5134	5395	1746030953186926380	/home/elanda/Coding/CPP/modpacker/bin/utils	e8a74b3767ab706c

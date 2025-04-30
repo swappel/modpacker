@@ -23,7 +23,7 @@ struct FileEntry {
 std::string serializeMetadataToJson(const ModMetadata& meta);
 ModMetadata parseMetadataFromJson(const std::string& json);
 
-void writeArchive(std::ofstream& out, std::vector<FileEntry>& files);
+void writeArchive(std::ofstream& out, std::vector<FileEntry>& files, const std::string& rootFolder);
 std::vector<FileEntry> readFileIndex(std::ifstream& in);
 std::optional<std::string> extractFileToMemory(std::ifstream& in, const FileEntry& file);
 void extractAllFiles(std::ifstream& in, const std::vector<FileEntry>& files, const std::string& outputFolder);
