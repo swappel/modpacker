@@ -37,7 +37,7 @@ void pack(const std::string& inputFolder, const std::string& outputFile) {
     files.push_back({ "mod.json", static_cast<uint64_t>(jsonBuffer.size()), 0, jsonBuffer });
 
     // Write archive
-    std::ofstream out(outputFile, std::ios::binary);
+    std::ofstream out(outputFile + ".afopmod", std::ios::binary);
     if (!out) throw std::runtime_error("Cannot open output file.");
 
     writeArchive(out, files, root);

@@ -45,3 +45,6 @@ _deps
 CMakeUserPresets.json
 
 bin/
+.cache/
+.vscode/
+build/
