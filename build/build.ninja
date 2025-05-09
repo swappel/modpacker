@@ -41,57 +41,57 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = /home/elanda/Coding/CPP/modpacker/build/
 # =============================================================================
-# Object build statements for EXECUTABLE target utils
+# Object build statements for EXECUTABLE target modpacker
 
 
 #############################################
-# Order-only phony target for utils
+# Order-only phony target for modpacker
 
-build cmake_object_order_depends_target_utils: phony || CMakeFiles/utils.dir
+build cmake_object_order_depends_target_modpacker: phony || CMakeFiles/modpacker.dir
 
-build CMakeFiles/utils.dir/src/FileUtils.cpp.o: CXX_COMPILER__utils_unscanned_Debug /home/elanda/Coding/CPP/modpacker/src/FileUtils.cpp || cmake_object_order_depends_target_utils
-  DEP_FILE = CMakeFiles/utils.dir/src/FileUtils.cpp.o.d
+build CMakeFiles/modpacker.dir/src/FileUtils.cpp.o: CXX_COMPILER__modpacker_unscanned_Debug /home/elanda/Coding/CPP/modpacker/src/FileUtils.cpp || cmake_object_order_depends_target_modpacker
+  DEP_FILE = CMakeFiles/modpacker.dir/src/FileUtils.cpp.o.d
   FLAGS = -g -std=gnu++17
   INCLUDES = -I/home/elanda/Coding/CPP/modpacker/include
-  OBJECT_DIR = CMakeFiles/utils.dir
-  OBJECT_FILE_DIR = CMakeFiles/utils.dir/src
+  OBJECT_DIR = CMakeFiles/modpacker.dir
+  OBJECT_FILE_DIR = CMakeFiles/modpacker.dir/src
 
-build CMakeFiles/utils.dir/src/ModArchive.cpp.o: CXX_COMPILER__utils_unscanned_Debug /home/elanda/Coding/CPP/modpacker/src/ModArchive.cpp || cmake_object_order_depends_target_utils
-  DEP_FILE = CMakeFiles/utils.dir/src/ModArchive.cpp.o.d
+build CMakeFiles/modpacker.dir/src/ModArchive.cpp.o: CXX_COMPILER__modpacker_unscanned_Debug /home/elanda/Coding/CPP/modpacker/src/ModArchive.cpp || cmake_object_order_depends_target_modpacker
+  DEP_FILE = CMakeFiles/modpacker.dir/src/ModArchive.cpp.o.d
   FLAGS = -g -std=gnu++17
   INCLUDES = -I/home/elanda/Coding/CPP/modpacker/include
-  OBJECT_DIR = CMakeFiles/utils.dir
-  OBJECT_FILE_DIR = CMakeFiles/utils.dir/src
+  OBJECT_DIR = CMakeFiles/modpacker.dir
+  OBJECT_FILE_DIR = CMakeFiles/modpacker.dir/src
 
-build CMakeFiles/utils.dir/src/Packer.cpp.o: CXX_COMPILER__utils_unscanned_Debug /home/elanda/Coding/CPP/modpacker/src/Packer.cpp || cmake_object_order_depends_target_utils
-  DEP_FILE = CMakeFiles/utils.dir/src/Packer.cpp.o.d
+build CMakeFiles/modpacker.dir/src/Packer.cpp.o: CXX_COMPILER__modpacker_unscanned_Debug /home/elanda/Coding/CPP/modpacker/src/Packer.cpp || cmake_object_order_depends_target_modpacker
+  DEP_FILE = CMakeFiles/modpacker.dir/src/Packer.cpp.o.d
   FLAGS = -g -std=gnu++17
   INCLUDES = -I/home/elanda/Coding/CPP/modpacker/include
-  OBJECT_DIR = CMakeFiles/utils.dir
-  OBJECT_FILE_DIR = CMakeFiles/utils.dir/src
+  OBJECT_DIR = CMakeFiles/modpacker.dir
+  OBJECT_FILE_DIR = CMakeFiles/modpacker.dir/src
 
-build CMakeFiles/utils.dir/src/main.cpp.o: CXX_COMPILER__utils_unscanned_Debug /home/elanda/Coding/CPP/modpacker/src/main.cpp || cmake_object_order_depends_target_utils
-  DEP_FILE = CMakeFiles/utils.dir/src/main.cpp.o.d
+build CMakeFiles/modpacker.dir/src/main.cpp.o: CXX_COMPILER__modpacker_unscanned_Debug /home/elanda/Coding/CPP/modpacker/src/main.cpp || cmake_object_order_depends_target_modpacker
+  DEP_FILE = CMakeFiles/modpacker.dir/src/main.cpp.o.d
   FLAGS = -g -std=gnu++17
   INCLUDES = -I/home/elanda/Coding/CPP/modpacker/include
-  OBJECT_DIR = CMakeFiles/utils.dir
-  OBJECT_FILE_DIR = CMakeFiles/utils.dir/src
+  OBJECT_DIR = CMakeFiles/modpacker.dir
+  OBJECT_FILE_DIR = CMakeFiles/modpacker.dir/src
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target utils
+# Link build statements for EXECUTABLE target modpacker
 
 
 #############################################
-# Link the executable /home/elanda/Coding/CPP/modpacker/bin/utils
+# Link the executable /home/elanda/Coding/CPP/modpacker/bin/modpacker
 
-build /home/elanda/Coding/CPP/modpacker/bin/utils: CXX_EXECUTABLE_LINKER__utils_Debug CMakeFiles/utils.dir/src/FileUtils.cpp.o CMakeFiles/utils.dir/src/ModArchive.cpp.o CMakeFiles/utils.dir/src/Packer.cpp.o CMakeFiles/utils.dir/src/main.cpp.o
+build /home/elanda/Coding/CPP/modpacker/bin/modpacker: CXX_EXECUTABLE_LINKER__modpacker_Debug CMakeFiles/modpacker.dir/src/FileUtils.cpp.o CMakeFiles/modpacker.dir/src/ModArchive.cpp.o CMakeFiles/modpacker.dir/src/Packer.cpp.o CMakeFiles/modpacker.dir/src/main.cpp.o
   FLAGS = -g
-  OBJECT_DIR = CMakeFiles/utils.dir
+  OBJECT_DIR = CMakeFiles/modpacker.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = /home/elanda/Coding/CPP/modpacker/bin/utils
-  TARGET_PDB = utils.dbg
+  TARGET_FILE = /home/elanda/Coding/CPP/modpacker/bin/modpacker
+  TARGET_PDB = modpacker.dbg
 
 
 #############################################
@@ -119,7 +119,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build utils: phony /home/elanda/Coding/CPP/modpacker/bin/utils
+build modpacker: phony /home/elanda/Coding/CPP/modpacker/bin/modpacker
 
 # =============================================================================
 # Folder targets.
@@ -129,7 +129,7 @@ build utils: phony /home/elanda/Coding/CPP/modpacker/bin/utils
 #############################################
 # Folder: /home/elanda/Coding/CPP/modpacker/build
 
-build all: phony /home/elanda/Coding/CPP/modpacker/bin/utils
+build all: phony /home/elanda/Coding/CPP/modpacker/bin/modpacker
 
 # =============================================================================
 # Built-in targets

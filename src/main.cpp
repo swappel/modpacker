@@ -1,3 +1,4 @@
+#include "fileutils/FileUtils.h"
 #include "packer/Packer.h"
 #include <iostream>
 #include <string>
@@ -20,6 +21,8 @@ int main(int argc, char* argv[]) {
             unpack(argv[2], argv[3]);
         } else if (command == "info" && argc == 3) {
             showInfo(argv[2]);
+        } else if (command == "init_mod" && argc == 3) {
+            createModSkeleton(argv[2]);
         } else {
             std::cerr << "Invalid command or arguments.\n";
             return 1;

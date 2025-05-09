@@ -9,4 +9,4 @@ include_directories(${CMAKE_SOURCE_DIR}/include)
 
 file(GLOB_RECURSE SOURCES "src/*.cpp")
 
-add_executable(utils ${SOURCES})
+add_executable(modpacker ${SOURCES})
