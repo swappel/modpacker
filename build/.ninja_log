@@ -1,24 +1,6 @@
 # ninja log v5
 3	6611	1746528665303339502	CMakeFiles/modpacker.dir/src/ModArchive.cpp.o	a9efd32a9ae13585
-4	2742	1746528661449268013	CMakeFiles/modpacker.dir/src/Packer.cpp.o	4e2a33fc5f6e892b
-2	2175	1746528660883964000	CMakeFiles/modpacker.dir/src/FileUtils.cpp.o	680cf6b3c5532419
-2176	2968	1746528661680392302	CMakeFiles/modpacker.dir/src/main.cpp.o	3197382fd9da4640
-6611	6881	1746528665589493214	/home/elanda/Coding/CPP/modpacker/bin/modpacker	8a7c592c46643b3d
-14	2668	1746775325597313640	CMakeFiles/modpacker.dir/src/Packer.cpp.o	4e2a33fc5f6e892b
-14	2691	1746775325632335820	CMakeFiles/modpacker.dir/src/FileUtils.cpp.o	680cf6b3c5532419
-2692	3214	1746775326153665827	/home/elanda/Coding/CPP/modpacker/bin/modpacker	8a7c592c46643b3d
-12	2218	1746776035429024660	CMakeFiles/modpacker.dir/src/main.cpp.o	3197382fd9da4640
-8	3848	1746776037057839540	CMakeFiles/modpacker.dir/src/FileUtils.cpp.o	680cf6b3c5532419
-3850	4362	1746776037570095814	/home/elanda/Coding/CPP/modpacker/bin/modpacker	8a7c592c46643b3d
-7	2219	1746776136613546004	CMakeFiles/modpacker.dir/src/main.cpp.o	3197382fd9da4640
-4	3415	1746776137816347290	CMakeFiles/modpacker.dir/src/FileUtils.cpp.o	680cf6b3c5532419
 5	3437	1746776137837361271	CMakeFiles/modpacker.dir/src/Packer.cpp.o	4e2a33fc5f6e892b
-3437	3766	1746776138163577894	/home/elanda/Coding/CPP/modpacker/bin/modpacker	8a7c592c46643b3d
-7	782	1746776189666098920	CMakeFiles/modpacker.dir/src/main.cpp.o	3197382fd9da4640
-783	1087	1746776189967271427	/home/elanda/Coding/CPP/modpacker/bin/modpacker	8a7c592c46643b3d
-6	2257	1746776493798590543	CMakeFiles/modpacker.dir/src/FileUtils.cpp.o	680cf6b3c5532419
-2259	2966	1746776494523033702	/home/elanda/Coding/CPP/modpacker/bin/modpacker	8a7c592c46643b3d
-7	1702	1746776604394320486	CMakeFiles/modpacker.dir/src/FileUtils.cpp.o	680cf6b3c5532419
-1702	2104	1746776604796514729	/home/elanda/Coding/CPP/modpacker/bin/modpacker	8a7c592c46643b3d
 8	1640	1746776768776775515	CMakeFiles/modpacker.dir/src/FileUtils.cpp.o	680cf6b3c5532419
+7	782	1746776189666098920	CMakeFiles/modpacker.dir/src/main.cpp.o	3197382fd9da4640
 1640	2350	1746776769480122756	/home/elanda/Coding/CPP/modpacker/bin/modpacker	8a7c592c46643b3d
