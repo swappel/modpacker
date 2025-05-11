@@ -1,6 +1,0 @@
-# ninja log v5
-3	6611	1746528665303339502	CMakeFiles/modpacker.dir/src/ModArchive.cpp.o	a9efd32a9ae13585
-5	3437	1746776137837361271	CMakeFiles/modpacker.dir/src/Packer.cpp.o	4e2a33fc5f6e892b
-8	1640	1746776768776775515	CMakeFiles/modpacker.dir/src/FileUtils.cpp.o	680cf6b3c5532419
-7	782	1746776189666098920	CMakeFiles/modpacker.dir/src/main.cpp.o	3197382fd9da4640
-1640	2350	1746776769480122756	/home/elanda/Coding/CPP/modpacker/bin/modpacker	8a7c592c46643b3d
